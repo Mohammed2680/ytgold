@@ -1,0 +1,10 @@
+{
+  "latestVersionCode": 4,
+  "latestVersionName": "2.1",
+  "downloadUrl": "https://example.com/Debtix.apk",
+  "forceUpdate": false,
+  "whatsNew": {
+    "ar": "تحسينات وإصلاحات وتحسين استقرار التطبيق.",
+    "en": "Improvements, fixes and stability enhancements."
+  }
+}
