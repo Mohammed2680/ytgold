@@ -70,18 +70,9 @@
         linear-gradient(135deg, #eef3fb 0%, #f5f7fb 48%, #e8f5e9 100%);
     }
 
+    /* طبقة الشبكة أزيلت لأنها قد تظهر كأعمدة أو خطوط بيضاء في بعض متصفحات Android. */
     body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      z-index: -2;
-      pointer-events: none;
-      background-image:
-        linear-gradient(rgba(11, 42, 91, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(11, 42, 91, 0.03) 1px, transparent 1px);
-      background-size: 44px 44px;
-      mask-image: linear-gradient(to bottom, #000 0%, transparent 88%);
-      -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 88%);
+      content: none;
     }
 
     a {
@@ -721,7 +712,7 @@
           </h2>
 
           <p>
-            تُحتفظ بالبيانات محلياً ما دمت تستخدم التطبيق، وقد تبقى البيانات التي تمت مزامنتها أو نسخها احتياطياً في خدمات Google إلى أن تحذفها من الخدمة المعنية أو تطلب حذف حسابك وبياناته. يمكنك طلب حذف حسابك والبيانات المرتبطة به من خلال صفحة التواصل مع المطور. قبل النشر، يجب أن توفر الجهة المطورة رابطاً عاماً مستقلاً لطلب حذف الحساب وفق متطلبات Google Play.
+            تُحتفظ بالبيانات محلياً ما دمت تستخدم التطبيق، وقد تبقى البيانات التي تمت مزامنتها أو نسخها احتياطياً في خدمات Google إلى أن تحذفها من الخدمة المعنية أو تطلب حذف حسابك وبياناته. يمكنك طلب حذف حسابك والبيانات المرتبطة به من خلال صفحة التواصل مع المطور.
           </p>
         </article>
 
@@ -873,7 +864,7 @@
           </h2>
 
           <p>
-            Data is retained locally while you use the app. Data that you synchronize or back up may remain in Google services until you delete it through the relevant service or request deletion of your account and associated data. You can request account and data deletion through the developer contact page. Before publication, the developer must provide a separate public account-deletion request URL as required by Google Play.
+            Data is retained locally for as long as you use the app. Data that you synchronize or back up may remain in Google services until you delete it through the relevant service or request deletion of your account and data. You can request deletion of your account and associated data through the developer contact page.
           </p>
         </article>
 
