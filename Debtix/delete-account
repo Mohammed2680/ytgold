@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حذف الحساب والبيانات - ديوني | Debtix</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Tajawal", sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.8;
+    }
+
+    .container {
+      width: min(900px, calc(100% - 30px));
+      margin: 40px auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 35px;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.07);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .logo {
+      width: 78px;
+      height: 78px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 30px;
+      color: #172033;
+    }
+
+    .header p {
+      color: #697386;
+      margin-top: 8px;
+    }
+
+    .section {
+      background: #f8faff;
+      border: 1px solid #e8edf5;
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin-bottom: 0;
+      color: #4c566a;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-right: 22px;
+    }
+
+    li {
+      margin-bottom: 7px;
+    }
+
+    .warning {
+      background: #fff8e8;
+      border: 1px solid #f2dfaa;
+      color: #6d5314;
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 20px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 12px;
+      padding: 13px 25px;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .button-primary {
+      background: #1769e0;
+      color: #fff;
+    }
+
+    .button-secondary {
+      background: #eef3fb;
+      color: #1769e0;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 25px;
+      color: #7b8495;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: calc(100% - 18px);
+        margin: 18px auto;
+      }
+
+      .card {
+        padding: 22px 16px;
+        border-radius: 18px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .section {
+        padding: 18px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .button {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="card">
+
+      <header class="header">
+
+        <!-- استبدل الرابط بصورة شعار Debtix إذا أردت -->
+        <img
+          class="logo"
+          src="https://debtix.mtaltawaf.com/favicon.png"
+          alt="شعار ديوني Debtix"
+        >
+
+        <h1>حذف الحساب والبيانات</h1>
+
+        <p>
+          ديوني | Debtix
+        </p>
+
+        <p>
+          يمكنك من خلال هذه الصفحة طلب حذف حسابك والبيانات المرتبطة به.
+        </p>
+
+      </header>
+
+
+      <section class="section">
+
+        <h2>كيفية طلب حذف الحساب</h2>
+
+        <p>
+          إذا كنت ترغب في حذف حسابك من تطبيق ديوني | Debtix،
+          يرجى التواصل معنا من خلال زر «اتصل بنا» أدناه.
+          استخدم البريد الإلكتروني المرتبط بحسابك في التطبيق
+          لتسهيل التحقق من ملكية الحساب ومعالجة طلب الحذف.
+        </p>
+
+      </section>
+
+
+      <section class="section">
+
+        <h2>البيانات التي سيتم حذفها</h2>
+
+        <p>
+          عند إتمام عملية حذف الحساب، سيتم حذف البيانات المرتبطة
+          بحساب المستخدم، بما في ذلك:
+        </p>
+
+        <ul>
+          <li>حساب المستخدم.</li>
+          <li>عنوان البريد الإلكتروني المرتبط بالحساب.</li>
+          <li>البيانات المرتبطة بالحساب المخزنة في خدمات التطبيق.</li>
+        </ul>
+
+      </section>
+
+
+      <section class="section">
+
+        <h2>البيانات التي قد يتم الاحتفاظ بها</h2>
+
+        <p>
+          لا يتم الاحتفاظ ببيانات الحساب بعد إتمام عملية الحذف،
+          باستثناء أي معلومات يتطلب القانون الاحتفاظ بها لفترة محددة.
+        </p>
+
+      </section>
+
+
+      <section class="section">
+
+        <h2>مدة معالجة طلب الحذف</h2>
+
+        <p>
+          تتم معالجة طلب حذف الحساب خلال مدة لا تتجاوز 30 يومًا
+          من تاريخ استلام الطلب والتحقق من ملكية الحساب.
+        </p>
+
+      </section>
+
+
+      <div class="warning">
+
+        <strong>تنبيه:</strong>
+
+        <br>
+
+        حذف الحساب إجراء نهائي، وقد يؤدي إلى فقدان إمكانية الوصول
+        إلى البيانات المرتبطة بالحساب. يرجى التأكد من رغبتك في حذف
+        الحساب قبل إرسال الطلب.
+
+      </div>
+
+
+      <div class="actions">
+
+        <!-- زر الاتصال -->
+        <a
+          class="button button-primary"
+          href="https://ytgold.mtaltawaf.com/Debtix/contact.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          اتصل بنا لطلب حذف الحساب
+        </a>
+
+        <a
+          class="button button-secondary"
+          href="https://debtix.mtaltawaf.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          العودة إلى Debtix
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <footer>
+      © 2026 ديوني | Debtix — جميع الحقوق محفوظة
+    </footer>
+
+  </main>
+
+</body>
+</html>
