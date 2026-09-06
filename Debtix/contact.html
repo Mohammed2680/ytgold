@@ -1255,5 +1255,61 @@ box-shadow: 0 8px 20px rgba(234,67,53,.25);
       }, 4500);
     }
   </script>
+  <style>
+/* منع تحديد ونسخ المحتوى */
+.no-copy,
+.no-copy * {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+}
+
+/* السماح بالكتابة داخل الحقول */
+input,
+textarea,
+[contenteditable="true"] {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+}
+</style>
+
+<script>
+(function () {
+  document.documentElement.classList.add("no-copy");
+
+  function blockEvent(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+  }
+
+  // منع الزر الأيمن والنسخ والقص والسحب والطباعة
+  [
+    "contextmenu",
+    "copy",
+    "cut",
+    "dragstart"
+  ].forEach(function (eventName) {
+    document.addEventListener(eventName, blockEvent, true);
+  });
+
+  // منع الاختصارات الشائعة
+  document.addEventListener("keydown", function (event) {
+    const key = (event.key || "").toLowerCase();
+    const modifier = event.ctrlKey || event.metaKey;
+
+    if (
+      (modifier && ["c", "x", "u", "s", "p", "a"].includes(key)) ||
+      event.key === "F12" ||
+      (event.ctrlKey &&
+        event.shiftKey &&
+        ["i", "j", "c"].includes(key))
+    ) {
+      blockEvent(event);
+    }
+  }, true);
+})();
+</script>
 </body>
   </html>
