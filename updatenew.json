@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "showOnLaunch": true,
-  "checkIntervalHours": 32,
+  "checkIntervalHours": 6,
   "showAgainAfterHours": 12,
   "stable": {
     "enabled": true,
-    "goldUpdateCode": 13,
+    "goldUpdateCode": 32,
     "versionName": "29",
     "titleAr": "تحديث جديد لإنستاغولد",
     "titleEn": "New MTInsta update",
