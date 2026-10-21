@@ -18,7 +18,7 @@
     "minSupportedGoldUpdateCode": 0,
     "publishedAt": "",
     "packages": {
-      "com.MTInsta.android": {
+      "com.instagold.android": {
         "enabled": true,
         "downloadUrl": "https://dlll.mtaltawaf.com/MTInsta/MTInstagram_V29.5.apk",
         "webUrl": "",
@@ -51,14 +51,14 @@
   "beta": {
     "enabled": true,
     "goldUpdateCode": 10,
-    "versionName": "29",
+    "versionName": "12.61",
     "titleAr": "إصدار تجريبي جديد من إنستاغولد",
     "titleEn": "New InstaGold beta update",
     "messageAr": "يتوفر إصدار جديد من إنستاغولد",
     "messageEn": "An InstaGold update is available. Choose an in-app update or download from the website.",
     "changelogAr": "- إصلاح اتجاه الرسائل داخل المحادثات.\n- تحسين المكالمات الصوتية ومكالمات الفيديو وإزالة رسالة التحديث المزعجة.\n- تحسين استقرار القصص واستيراد الخطوط وسجل الرسائل المحذوفة.\n- إصلاح مشاكل اختصارات Android وتقليل الانهيارات غير المتوقعة.\n- إضافة حماية إضافية لمسارات الذكاء الاصطناعي.\n- تحسين نظام تقارير الأعطال والتوافق والاستقرار العام.",
 	"changelogEn": "- Fixed message direction issues inside chats.\n- Improved voice and video calls and removed the blocking update prompt.\n- Improved Stories, custom fonts, and deleted messages history stability.\n- Fixed Android shortcut issues and reduced unexpected crashes.\n- Added extra protection for AI-related components.\n- Improved crash reporting, compatibility, and overall stability.",
-    "webUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
+    "webUrl": "https://watsbplus.com/instagold/update",
     "forceUpdate": false,
     "minSupportedGoldUpdateCode": 0,
     "publishedAt": "",
