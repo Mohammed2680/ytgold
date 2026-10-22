@@ -1,96 +1,11 @@
 {
-  "enabled": true,
-  "showOnLaunch": true,
-  "checkIntervalHours": 6,
-  "showAgainAfterHours": 12,
-  "stable": {
-    "enabled": true,
-    "goldUpdateCode": 32,
-    "versionName": "29",
-    "titleAr": "تحديث جديد لإنستاغولد",
-    "titleEn": "New MTInsta update",
-    "messageAr": "يتوفر إصدار جديد من إنستاغولد. اختر التحديث من داخل التطبيق أو التحميل من الموقع.",
-    "messageEn": "An InstaGold update is available. Choose an in-app update or download from the website.",
-    "changelogAr": "- إصلاح اتجاه الرسائل داخل المحادثات.\n- تحسين المكالمات الصوتية ومكالمات الفيديو وإزالة رسالة التحديث المزعجة.\n- تحسين استقرار القصص واستيراد الخطوط وسجل الرسائل المحذوفة.\n- إصلاح مشاكل اختصارات Android وتقليل الانهيارات غير المتوقعة.\n- إضافة حماية إضافية لمسارات الذكاء الاصطناعي.\n- تحسين نظام تقارير الأعطال والتوافق والاستقرار العام.",
-	"changelogEn": "- Fixed message direction issues inside chats.\n- Improved voice and video calls and removed the blocking update prompt.\n- Improved Stories, custom fonts, and deleted messages history stability.\n- Fixed Android shortcut issues and reduced unexpected crashes.\n- Added extra protection for AI-related components.\n- Improved crash reporting, compatibility, and overall stability.",
-    "webUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
-    "forceUpdate": false,
-    "minSupportedGoldUpdateCode": 0,
-    "publishedAt": "",
-    "packages": {
-      "com.MTInsta.android": {
-        "enabled": true,
-        "downloadUrl": "https://dlll.mtaltawaf.com/MTInsta/MTInstagram_V29.5.apk",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 154162765
-      },
-      "com.instagram.android": {
-        "enabled": true,
-        "downloadUrl": "https://dlll.apkm.app/goldinsta/12.61/InstaGold_Plus_v12.61.apk",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 154183259
-      },
-      "com.aginsta.android": {
-        "enabled": true,
-        "downloadUrl": "https://dlll.apkm.app/goldinsta/12.61/AGInsta_v12.61.apk",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 154162774
-      },
-      "com.gbinsta.android": {
-        "enabled": false,
-        "downloadUrl": "",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 0
-      }
-    }
+  "latestVersionCode": 64,
+  "latestVersionName": "30",
+  "whatsNew": {
+    "ar": "🔥 MTInsta 30 — تحديث يستحق التجربة!\n⚡️ أداء أسرع وسلاسة أكبر\n⬇️ مزايا جديدة لتنزيل الوسائط والريلز\n🔒 تحسينات للخصوصية وإصلاحات مهمة\n✨ تطويرات شاملة لتجربة أفضل!\n🚀 حدّث الآن واكتشف الجديد بنفسك!",
+    "en": "🔥 MTInsta 30 — An update worth trying!\n⚡️ Faster performance and smoother experience\n⬇️ New media download and Reels features\n🔒 Privacy improvements and important fixes\n✨ Overall enhancements for a better experience!\n🚀 Update now and discover what's new!"
   },
-  "beta": {
-    "enabled": true,
-    "goldUpdateCode": 10,
-    "versionName": "12.61",
-    "titleAr": "إصدار تجريبي جديد من إنستاغولد",
-    "titleEn": "New InstaGold beta update",
-    "messageAr": "يتوفر إصدار جديد من إنستاغولد",
-    "messageEn": "An InstaGold update is available. Choose an in-app update or download from the website.",
-    "changelogAr": "- إصلاح اتجاه الرسائل داخل المحادثات.\n- تحسين المكالمات الصوتية ومكالمات الفيديو وإزالة رسالة التحديث المزعجة.\n- تحسين استقرار القصص واستيراد الخطوط وسجل الرسائل المحذوفة.\n- إصلاح مشاكل اختصارات Android وتقليل الانهيارات غير المتوقعة.\n- إضافة حماية إضافية لمسارات الذكاء الاصطناعي.\n- تحسين نظام تقارير الأعطال والتوافق والاستقرار العام.",
-	"changelogEn": "- Fixed message direction issues inside chats.\n- Improved voice and video calls and removed the blocking update prompt.\n- Improved Stories, custom fonts, and deleted messages history stability.\n- Fixed Android shortcut issues and reduced unexpected crashes.\n- Added extra protection for AI-related components.\n- Improved crash reporting, compatibility, and overall stability.",
-    "webUrl": "https://watsbplus.com/instagold/update",
-    "forceUpdate": false,
-    "minSupportedGoldUpdateCode": 0,
-    "publishedAt": "",
-    "packages": {
-      "com.MTInsta.android": {
-        "enabled": false,
-        "downloadUrl": "",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 153617410
-      },
-      "com.instagram.android": {
-        "enabled": false,
-        "downloadUrl": "",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 153617410
-      },
-      "com.aginsta.android": {
-        "enabled": false,
-        "downloadUrl": "",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 153617410
-      },
-      "com.gbinsta.android": {
-        "enabled": false,
-        "downloadUrl": "",
-        "webUrl": "",
-        "sha256": "",
-        "fileSize": 153617410
-      }
-    }
-  }
+  "downloadUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
+  "forceUpdate": true,
+  "showIntervalHours": 3
 }
