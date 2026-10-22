@@ -1,11 +1,26 @@
 {
-  "latestVersionCode": 68,
-  "latestVersionName": "30",
-  "whatsNew": {
-    "ar": "🔥 MTInsta 30 — تحديث يستحق التجربة!\n⚡️ أداء أسرع وسلاسة أكبر\n⬇️ مزايا جديدة لتنزيل الوسائط والريلز\n🔒 تحسينات للخصوصية وإصلاحات مهمة\n✨ تطويرات شاملة لتجربة أفضل!\n🚀 حدّث الآن واكتشف الجديد بنفسك!",
-    "en": "🔥 MTInsta 30 — An update worth trying!\n⚡️ Faster performance and smoother experience\n⬇️ New media download and Reels features\n🔒 Privacy improvements and important fixes\n✨ Overall enhancements for a better experience!\n🚀 Update now and discover what's new!"
-  },
-  "downloadUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
-  "forceUpdate": true,
-  "showIntervalHours": 0
+  "stable": {
+    "enabled": true,
+    "goldUpdateCode": 18,
+    "versionName": "68",
+    "minSupportedGoldUpdateCode": 30,
+    "forceUpdate": false,
+    "showOnLaunch": true,
+    "checkIntervalHours": 0,
+    "showAgainAfterHours": 0,
+    "titleAr": "يتوفر تحديث جديد لـ MTInsta",
+    "titleEn": "A new ANInsta update is available",
+    "messageAr": "يتوفر إصدار جديد من MTInsta. اضغط «التحديث» لزيارة صفحة التحديث وتنزيل النسخة الجديدة.",
+    "messageEn": "A new version of MTInsta is available. Tap “Update” to visit the update page and get the latest version.",
+    "changelogAr": ""🔥تحديث يستحق التجربة!\n⚡️ أداء أسرع وسلاسة أكبر\n⬇️ مزايا جديدة لتنزيل الوسائط والريلز\n🔒 تحسينات للخصوصية وإصلاحات مهمة\n✨ تطويرات شاملة لتجربة أفضل!\n🚀 حدّث الآن واكتشف الجديد بنفسك!", ",
+    "changelogEn": ""🔥 An update worth trying!\n⚡️ Faster performance and smoother experience\n⬇️ New media download and Reels features\n🔒 Privacy improvements and important fixes\n✨ Overall enhancements for a better experience!\n🚀 Update now and discover what's new!",
+    "publishedAt": "2026-10-22",
+    "packages": {
+      "com.ANInsta.android": {
+        "enabled": true,
+        "downloadUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
+        "webUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html"
+      }
+    }
+  }
 }
