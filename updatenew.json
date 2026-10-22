@@ -1,8 +1,8 @@
 {
   "stable": {
     "enabled": true,
-    "goldUpdateCode": 18,
-    "versionName": "68",
+    "goldUpdateCode": 68,
+    "versionName": "31",
     "minSupportedGoldUpdateCode": 30,
     "forceUpdate": false,
     "showOnLaunch": true,
@@ -16,7 +16,7 @@
     "changelogEn": ""🔥 An update worth trying!\n⚡️ Faster performance and smoother experience\n⬇️ New media download and Reels features\n🔒 Privacy improvements and important fixes\n✨ Overall enhancements for a better experience!\n🚀 Update now and discover what's new!",
     "publishedAt": "2026-10-22",
     "packages": {
-      "com.ANInsta.android": {
+      "com.MTInsta.android": {
         "enabled": true,
         "downloadUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html",
         "webUrl": "https://www.mtaltawaf.com/2020/11/mtinstagram.html"
